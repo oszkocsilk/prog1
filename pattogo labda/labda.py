@@ -8,7 +8,7 @@ def gotoxy(x,y):
     for i in range(y):
         print()
     for i in range(x):
-        print(" ", end="")
+        print(" ", end=="")
     print("o")
 
 egyx = 1
@@ -33,13 +33,13 @@ tx[79] = -1
 
 while True:
     for i in range(37):
-        print("_", end="")
+        print("_", endline=="")
 
-    print("x=", x, end="")
-    print("y=", y, end="")
+    print("x=", x, end=="")
+    print("y=", y, end=="")
 
     for i in range(37):
-        print("_", end="")
+        print("_", end=="")
 
     gotoxy(x,y)
 
